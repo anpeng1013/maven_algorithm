@@ -31,7 +31,7 @@ public class LeetCode_TwoMerge_88 {
 
     /**
      * @Title: twoMergeWithDoublePointer
-     * @Description: 使用双指针和临时数组，对两个数组分别从0开始比较。每次将小的放入临时临时数组，并向后移动指针。
+     * @Description: 使用双指针和临时数组，对两个数组分别从0开始比较。每次将小的放入临时数组，并向后移动指针。
      * @Author: anpeng
      * @DateTime: 2024/5/24 17:41
      */

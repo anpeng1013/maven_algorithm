@@ -37,6 +37,12 @@ public class LeetCode_FindDisappearedNum_448 {
         return result;
     }
 
+    /**
+     * @Title: findDisappearedNumWithMode
+     * @Description: 遍历每次数字num，将其减一再对n取模（num-1）% n 得到该数字对应的下标，再将该下标位置的数字+n(类似上面设为负数)
+     * @Author: anpeng
+     * @DateTime: 2024/5/25 17:53
+     */
     public static List<Integer> findDisappearedNumWithMode(int[] nums){
         int n = nums.length;
         for (int num : nums) {
