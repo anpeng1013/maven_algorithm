@@ -23,7 +23,7 @@ public class ListNode {
      * @Author: anpeng
      * @DateTime: 2024/5/26 15:25
      */
-    public static ListNode buildListNode(String[] strNum){
+    public static ListNode buildLinkedListNode(String[] strNum){
         int n = strNum.length;
         int[] vals = new int[n];
         for(int i = 0; i < n; i++){

@@ -19,10 +19,10 @@ public class MergeTwoLinkedListTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入第一个有序单链表：");
         String[] strNode = input.nextLine().split(" ");
-        ListNode l1 = ListNode.buildListNode(strNode);
+        ListNode l1 = ListNode.buildLinkedListNode(strNode);
         System.out.println("请输入第二个有序单链表：");
         strNode = input.nextLine().split(" ");
-        ListNode l2 = ListNode.buildListNode(strNode);
+        ListNode l2 = ListNode.buildLinkedListNode(strNode);
         ListNode result = LeetCode_21_MergeTwoLinkedList.mergeTwoLinkedList(l1,l2);
         ListNode.printLinkedListNode(result);
     }
@@ -32,10 +32,10 @@ public class MergeTwoLinkedListTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入第一个有序单链表：");
         String[] strNode = input.nextLine().split(" ");
-        ListNode l1 = ListNode.buildListNode(strNode);
+        ListNode l1 = ListNode.buildLinkedListNode(strNode);
         System.out.println("请输入第二个有序单链表：");
         strNode = input.nextLine().split(" ");
-        ListNode l2 = ListNode.buildListNode(strNode);
+        ListNode l2 = ListNode.buildLinkedListNode(strNode);
         ListNode result = LeetCode_21_MergeTwoLinkedList.mergeLinkedListWithRecursive(l1,l2);
         ListNode.printLinkedListNode(result);
     }
