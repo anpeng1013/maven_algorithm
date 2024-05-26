@@ -13,7 +13,7 @@ import java.util.HashMap;
  *      每次你可以爬1个或2个台阶，你有多少种不同的方法可以爬到楼顶？
  *
  */
-public class LeetCode_ClimbStairs_70 {
+public class LeetCode_70_ClimbStairs {
 
     /**
      * @Title: climbStairsWithRecursive

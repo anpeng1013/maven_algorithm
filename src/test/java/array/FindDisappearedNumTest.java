@@ -1,6 +1,6 @@
 package array;
 
-import me.anpeng.array.LeetCode_FindDisappearedNum_448;
+import me.anpeng.array.LeetCode_448_FindDisappearedNum;
 import org.junit.Test;
 
 import java.util.List;
@@ -23,7 +23,7 @@ public class FindDisappearedNumTest {
         for (int i = 0; i < strNums.length; i++) {
             nums[i] = Integer.parseInt(strNums[i]);
         }
-        List<Integer> result = LeetCode_FindDisappearedNum_448.findDisappearedNumWithIndex(nums);
+        List<Integer> result = LeetCode_448_FindDisappearedNum.findDisappearedNumWithIndex(nums);
         System.out.println(result);
     }
 
@@ -36,7 +36,7 @@ public class FindDisappearedNumTest {
         for (int i = 0; i < strNums.length; i++) {
             nums[i] = Integer.parseInt(strNums[i]);
         }
-        List<Integer> result = LeetCode_FindDisappearedNum_448.findDisappearedNumWithMode(nums);
+        List<Integer> result = LeetCode_448_FindDisappearedNum.findDisappearedNumWithMode(nums);
         System.out.println(result);
     }
 }

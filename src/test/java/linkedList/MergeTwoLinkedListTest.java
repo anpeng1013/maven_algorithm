@@ -1,6 +1,6 @@
 package linkedList;
 
-import me.anpeng.linkedList.LeetCode_MergeTwoLinkedList_21;
+import me.anpeng.linkedList.LeetCode_21_MergeTwoLinkedList;
 import me.anpeng.util.ListNode;
 import org.junit.Test;
 
@@ -23,7 +23,7 @@ public class MergeTwoLinkedListTest {
         System.out.println("请输入第二个有序单链表：");
         strNode = input.nextLine().split(" ");
         ListNode l2 = ListNode.buildListNode(strNode);
-        ListNode result = LeetCode_MergeTwoLinkedList_21.mergeTwoLinkedList(l1,l2);
+        ListNode result = LeetCode_21_MergeTwoLinkedList.mergeTwoLinkedList(l1,l2);
         ListNode.printLinkedListNode(result);
     }
 
@@ -36,7 +36,7 @@ public class MergeTwoLinkedListTest {
         System.out.println("请输入第二个有序单链表：");
         strNode = input.nextLine().split(" ");
         ListNode l2 = ListNode.buildListNode(strNode);
-        ListNode result = LeetCode_MergeTwoLinkedList_21.mergeLinkedListWithRecursive(l1,l2);
+        ListNode result = LeetCode_21_MergeTwoLinkedList.mergeLinkedListWithRecursive(l1,l2);
         ListNode.printLinkedListNode(result);
     }
 }

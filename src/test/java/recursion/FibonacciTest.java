@@ -1,6 +1,6 @@
 package recursion;
 
-import me.anpeng.recursion.JianZhi_Fibonacci_10;
+import me.anpeng.recursion.JianZhi_10_Fibonacci;
 import org.junit.Test;
 
 import java.util.Scanner;
@@ -17,7 +17,7 @@ public class FibonacciTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入一个整数：");
         int n = input.nextInt();
-        int m = JianZhi_Fibonacci_10.FibonacciWithLoop(n);
+        int m = JianZhi_10_Fibonacci.FibonacciWithLoop(n);
         System.out.println("Fibonacci数列的第" + n + "项为：" + m);
     }
 

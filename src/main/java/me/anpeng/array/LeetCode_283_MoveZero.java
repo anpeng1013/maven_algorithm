@@ -10,7 +10,7 @@ package me.anpeng.array;
  *      给定一个数组nums，编写一个函数将所有0移动到数组的末尾，同时保持非零元素的相对顺序。
  *          注意：必须在原数组上进行操作，不能拷贝额外的数组。
  */
-public class LeetCode_MoveZero_283 {
+public class LeetCode_283_MoveZero {
 
     public static void moveZeroWithDoublePointer(int nums[]){
         if (nums == null){

@@ -15,7 +15,7 @@ import java.util.List;
  *      并以数组的形式返回结果。
  *          注意：你不能使用额外的空间且时间复杂度为O(n)。
  */
-public class LeetCode_FindDisappearedNum_448 {
+public class LeetCode_448_FindDisappearedNum {
 
     /**
      * @Title: findDisappearedNumWithIndex

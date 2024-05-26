@@ -1,6 +1,6 @@
 package array;
 
-import me.anpeng.array.LeetCode_MoveZero_283;
+import me.anpeng.array.LeetCode_283_MoveZero;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -23,7 +23,7 @@ public class MoveZeroTest {
         for (int i = 0; i < strNums.length; i++) {
             nums[i] = Integer.parseInt(strNums[i]);
         }
-        LeetCode_MoveZero_283.moveZeroWithDoublePointer(nums);
+        LeetCode_283_MoveZero.moveZeroWithDoublePointer(nums);
         System.out.println(Arrays.toString(nums));
     }
 

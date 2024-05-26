@@ -12,7 +12,7 @@ import me.anpeng.util.ListNode;
  *      合并两个有序的单链表，返回一个有序的单链表。
  */
 
-public class LeetCode_MergeTwoLinkedList_21 {
+public class LeetCode_21_MergeTwoLinkedList {
 
     public static ListNode mergeTwoLinkedList(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;

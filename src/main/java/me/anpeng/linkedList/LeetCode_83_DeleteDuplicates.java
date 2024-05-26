@@ -11,7 +11,7 @@ import me.anpeng.util.ListNode;
  * 题目：
  *      给定一个已经排序的链表，删除重复的元素，保证每个元素只出现一次
  */
-public class LeetCode_DeleteDuplicates_83 {
+public class LeetCode_83_DeleteDuplicates {
 
     /**
      * @Title: deleteDuplicates

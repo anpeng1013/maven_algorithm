@@ -14,7 +14,7 @@ import java.util.Arrays;
  *          注意：最终，合并后的数组不应由函数返回，而是存储在数组nums1中。为了应对这种情况，nums1的初始长度应该为m+n，其中前m个元素表示
  *      应合并的元素，后n个元素为0，应忽略。nums2的长度为n。
  */
-public class LeetCode_TwoMerge_88 {
+public class LeetCode_88_TwoMerge {
 
     /**
      * @Title: TwoMergeWithAPI

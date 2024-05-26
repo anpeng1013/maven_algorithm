@@ -1,6 +1,6 @@
 package recursion;
 
-import me.anpeng.recursion.LeetCode_ClimbStairs_70;
+import me.anpeng.recursion.LeetCode_70_ClimbStairs;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -18,7 +18,7 @@ public class ClimbStairsTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入一个整数：");
         int n = input.nextInt();
-        int m = LeetCode_ClimbStairs_70.climbStairsWithRecursive(n);
+        int m = LeetCode_70_ClimbStairs.climbStairsWithRecursive(n);
         System.out.println("一共有"+ m + "种方法");
     }
 
@@ -28,7 +28,7 @@ public class ClimbStairsTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入楼梯的阶数：");
         int n = input.nextInt();
-        int m = LeetCode_ClimbStairs_70.climbStairsWithRecursiveAndHashMap(n);
+        int m = LeetCode_70_ClimbStairs.climbStairsWithRecursiveAndHashMap(n);
         System.out.println("一共有" + m + "种方法");
     }
 
@@ -37,7 +37,7 @@ public class ClimbStairsTest {
         Scanner input = new Scanner(System.in);
         System.out.println("请输入楼梯的阶数：");
         int n = input.nextInt();
-        int m = LeetCode_ClimbStairs_70.climbStairsWithLoop(n);
+        int m = LeetCode_70_ClimbStairs.climbStairsWithLoop(n);
         System.out.println("一共有" + m + "种方法");
 
     }

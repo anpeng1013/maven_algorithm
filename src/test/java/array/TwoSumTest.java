@@ -1,6 +1,6 @@
 package array;
 
-import me.anpeng.array.LeetCode_TwoSum_1;
+import me.anpeng.array.LeetCode_1_TwoSum;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -25,7 +25,7 @@ public class TwoSumTest {
         }
         System.out.println("请输入目标值target：");
         int target = input.nextInt();
-        int [] result = LeetCode_TwoSum_1.twoSumWithViolence(nums, target);
+        int [] result = LeetCode_1_TwoSum.twoSumWithViolence(nums, target);
         System.out.println(Arrays.toString(result));
     }
 
@@ -40,7 +40,7 @@ public class TwoSumTest {
         }
         System.out.println("请输入目标值target：");
         int target = input.nextInt();
-        int [] result = LeetCode_TwoSum_1.twoSumWithHashMap(nums, target);
+        int [] result = LeetCode_1_TwoSum.twoSumWithHashMap(nums, target);
         System.out.println(Arrays.toString(result));
     }
 

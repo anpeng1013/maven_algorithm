@@ -11,7 +11,7 @@ import java.util.HashMap;
  * 题目：
  *      给定一个数组nums和一个目标数值target，请你在改数组中找出和为目标值target的那两个整数，并返回它们的数组下标。
  */
-public class LeetCode_TwoSum_1 {
+public class LeetCode_1_TwoSum {
     /**
      * @Title: twoSumWithViolence
      * @Description: 使用两层for循环，暴力遍历求解

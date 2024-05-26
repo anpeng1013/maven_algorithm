@@ -1,6 +1,6 @@
 package array;
 
-import me.anpeng.array.LeetCode_TwoMerge_88;
+import me.anpeng.array.LeetCode_88_TwoMerge;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -37,7 +37,7 @@ public class TwoMergeTest {
             nums2[i] = Integer.parseInt(strNums2[i]);
         }
 
-        LeetCode_TwoMerge_88.twoMergeWithAPI(nums1,m,nums2,n);
+        LeetCode_88_TwoMerge.twoMergeWithAPI(nums1,m,nums2,n);
         System.out.println(Arrays.toString(nums1));
     }
 
@@ -64,7 +64,7 @@ public class TwoMergeTest {
             nums2[i] = Integer.parseInt(strNums2[i]);
         }
 
-        LeetCode_TwoMerge_88.twoMergeWithDoublePointer(nums1,m,nums2,n);
+        LeetCode_88_TwoMerge.twoMergeWithDoublePointer(nums1,m,nums2,n);
         System.out.println(Arrays.toString(nums1));
     }
 
@@ -91,7 +91,7 @@ public class TwoMergeTest {
             nums2[i] = Integer.parseInt(strNums2[i]);
         }
 
-        LeetCode_TwoMerge_88.twoMergeWithDoublePointerReverse(nums1,m,nums2,n);
+        LeetCode_88_TwoMerge.twoMergeWithDoublePointerReverse(nums1,m,nums2,n);
         System.out.println(Arrays.toString(nums1));
     }
 }

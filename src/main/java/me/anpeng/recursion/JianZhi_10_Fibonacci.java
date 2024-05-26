@@ -9,7 +9,7 @@ package me.anpeng.recursion;
  * 题目：
  *      写出一个函数，输入n，求Fibonacci数列的第n项。
  */
-public class JianZhi_Fibonacci_10 {
+public class JianZhi_10_Fibonacci {
     /**
      * @Title: FibonacciWithLoop
      * @Description: 与LeetCode爬楼梯类似，可以使用三种方法（递归，递归加HashMap，循环），这里直接使用循环解法。
